@@ -1,3 +1,5 @@
+import numpy as np
+
 def visualize_clf(clf, X, Y, title, 
                   xlabel, ylabel,
                   marker_size=50,
