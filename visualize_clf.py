@@ -7,6 +7,7 @@ def visualize_clf(clf, X, Y, title,
     import matplotlib.pyplot as plt
     import pandas as pd
     import numpy as np
+    import seaborn as sns
     from matplotlib.colors import ListedColormap
     
     if isinstance(X, pd.DataFrame):
