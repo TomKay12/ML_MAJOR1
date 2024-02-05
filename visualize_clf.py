@@ -1,4 +1,3 @@
-import numpy as np
 
 def visualize_clf(clf, X, Y, title, 
                   xlabel, ylabel,
@@ -7,6 +6,7 @@ def visualize_clf(clf, X, Y, title,
                   linewidths=None):
     import matplotlib.pyplot as plt
     import pandas as pd
+    import numpy as np
     from matplotlib.colors import ListedColormap
     
     if isinstance(X, pd.DataFrame):
